@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/taco-website/static/css/main.fe304c40.css",
-    "main.js": "/taco-website/static/js/main.610aaacf.js",
+    "main.css": "/taco-website/static/css/main.99564476.css",
+    "main.js": "/taco-website/static/js/main.7fb1d91c.js",
     "static/js/787.b7250b99.chunk.js": "/taco-website/static/js/787.b7250b99.chunk.js",
     "static/media/logo.png": "/taco-website/static/media/logo.99ce1cdaf6bbf7437709.png",
     "static/media/bg-cutting-board.jpg": "/taco-website/static/media/bg-cutting-board.1399d0855cb62abb4550.jpg",
@@ -15,12 +15,12 @@
     "static/media/placeholder.png": "/taco-website/static/media/placeholder.b9efcf562a17847d3e50.png",
     "static/media/cart.png": "/taco-website/static/media/cart.4c29f2fe61ac7f07df68.png",
     "index.html": "/taco-website/index.html",
-    "main.fe304c40.css.map": "/taco-website/static/css/main.fe304c40.css.map",
-    "main.610aaacf.js.map": "/taco-website/static/js/main.610aaacf.js.map",
+    "main.99564476.css.map": "/taco-website/static/css/main.99564476.css.map",
+    "main.7fb1d91c.js.map": "/taco-website/static/js/main.7fb1d91c.js.map",
     "787.b7250b99.chunk.js.map": "/taco-website/static/js/787.b7250b99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe304c40.css",
-    "static/js/main.610aaacf.js"
+    "static/css/main.99564476.css",
+    "static/js/main.7fb1d91c.js"
   ]
 }
