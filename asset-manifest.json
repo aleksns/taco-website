@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/taco-website/static/css/main.fe304c40.css",
+    "main.js": "/taco-website/static/js/main.610aaacf.js",
+    "static/js/787.b7250b99.chunk.js": "/taco-website/static/js/787.b7250b99.chunk.js",
+    "static/media/logo.png": "/taco-website/static/media/logo.99ce1cdaf6bbf7437709.png",
+    "static/media/bg-cutting-board.jpg": "/taco-website/static/media/bg-cutting-board.1399d0855cb62abb4550.jpg",
+    "static/media/taco-sad.png": "/taco-website/static/media/taco-sad.a17198719af4309e1620.png",
+    "static/media/planet.png": "/taco-website/static/media/planet.3a3e0484f2045613136e.png",
+    "static/media/login-img.jpg": "/taco-website/static/media/login-img.da56439545615a129fb7.jpg",
+    "static/media/taco-404.jpg": "/taco-website/static/media/taco-404.28d27f75bca4e8c549ad.jpg",
+    "static/media/stopwatch.png": "/taco-website/static/media/stopwatch.e0ea8ae882d406a6f76b.png",
+    "static/media/stopwatchRed.png": "/taco-website/static/media/stopwatchRed.d6a502348cc0f4154672.png",
+    "static/media/user.png": "/taco-website/static/media/user.b802f58dda46afcf2f9d.png",
+    "static/media/placeholder.png": "/taco-website/static/media/placeholder.b9efcf562a17847d3e50.png",
+    "static/media/cart.png": "/taco-website/static/media/cart.4c29f2fe61ac7f07df68.png",
+    "index.html": "/taco-website/index.html",
+    "main.fe304c40.css.map": "/taco-website/static/css/main.fe304c40.css.map",
+    "main.610aaacf.js.map": "/taco-website/static/js/main.610aaacf.js.map",
+    "787.b7250b99.chunk.js.map": "/taco-website/static/js/787.b7250b99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe304c40.css",
+    "static/js/main.610aaacf.js"
+  ]
+}
