@@ -15,7 +15,9 @@ const searchSlice = createSlice({
       state.isOpen = true;
     },
     closeSearch(state, action) {
-      state.isOpen = false;
+      if(state.isOpen) {
+        state.isOpen = false;
+      }
     },
   },
 });

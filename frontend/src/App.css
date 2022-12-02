@@ -28,6 +28,7 @@
   --green-dark: rgb(0, 146, 0);
   --transition-time: 0.3s;
   --header-height: 75px;
+  --header-height-offset: 130px;
   --btn-size-smaller: 15px;
   --btn-size-small: 20px;
   --btn-size-medium-small: 25px;
@@ -1049,6 +1050,7 @@ input[type="search"] {
 }
 
 .search-result {
+  z-index: 110;
   overflow-y: scroll;
   position: absolute;
   display: flex;
@@ -1062,6 +1064,15 @@ input[type="search"] {
   width: inherit;
   max-height: 50vh;
 }
+.search-result-overlay {
+  z-index: 3;
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+}
 
 .search-food-card-container {
   font-size: 10px;
@@ -1072,7 +1083,7 @@ input[type="search"] {
   align-items: center;
   padding: var(--margin-section-small);
   border-bottom: 1px solid var(--color-secondary);
-  width: fill;
+  width: 100%;
 }
 
 .search-food-card-content {
@@ -1442,7 +1453,10 @@ input[type="checkbox"]:checked:after {
   }
   .header-nav-section a,
   input[type="search"] {
-    margin: var(--margin-section-medium) 0;
+    margin: var(--margin-section-small) 0;
+  }
+  .search-result-overlay {
+    top: var(--header-height-offset);
   }
   .search {
     width: 350px;
@@ -1718,7 +1732,6 @@ input[type="checkbox"]:checked:after {
     background-position: 45% 0;
   }
 }
-
 @media screen and (max-width: 640px) {
   .content-grid {
     grid-template-columns: repeat(1, 1fr);

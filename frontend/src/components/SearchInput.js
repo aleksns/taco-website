@@ -31,6 +31,7 @@ export default function SearchInput() {
 
   return (
     <input
+      id="search-input"
       type="search"
       placeholder="Search Dish Here..."
       name="q"

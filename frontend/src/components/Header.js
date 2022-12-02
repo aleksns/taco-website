@@ -9,10 +9,15 @@ import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import HamMenu from "../componentsReusable/HamMenu";
 import UserComponent from "./UserComponent";
+import FunctionsHandler from "./FunctionsHandler";
 
 export default function Header() {
   const cart = useSelector((state) => state.cart);
   const authentication = useSelector((state) => state.authentication);
+
+  const {
+    closeSearchResultWindow,
+  } = FunctionsHandler();
 
   useEffect(() => {
     const hamMenu = document.querySelector(".header-ham-menu");
@@ -42,8 +47,18 @@ export default function Header() {
     }
   }, []);
 
+  function handleCloseSearch(e) {
+    if(e.target.id === "search-input") {
+      return;
+    }
+    let searchInput = document.querySelector("#search-input");
+    searchInput.value = "";
+
+    closeSearchResultWindow();
+  }
+
   return (
-    <div className="header section">
+    <div className="header section" onClick={(e) => handleCloseSearch(e)}>
       <HamMenu />
 
       <NavLink to={ROUTES.HOME} className="header-logo-container">
@@ -59,7 +74,7 @@ export default function Header() {
 
         <div className="search">
           <SearchInput />
-          <SearchResultWindow />
+          <SearchResultWindow handleCloseSearch={handleCloseSearch}/>
         </div>
       </div>
 
